@@ -1,0 +1,10 @@
+[package]
+edition = "2021"
+name = "proc-macro"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+my_lib = {path = "./my_lib"}
+my_proc_macros = {path = "./my_proc_macros"}
